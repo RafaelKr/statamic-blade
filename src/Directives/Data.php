@@ -20,6 +20,6 @@ class Data
             return $this->getAugmentedValue($data->get());
         }
 
-        return $this->getAugmentedValue($data->value());
+        return $this->getAugmentedValue($data);
     }
 }
